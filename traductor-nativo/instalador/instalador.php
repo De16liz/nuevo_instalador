@@ -8,7 +8,7 @@
 </head>
 <body style="display: flex; justify-content: center;">
     
-    <form action="ejecutar-instalador.php">
+    <form action="ejecutar-instalador.php" method="POST">
         <h1>Instalador de la APP</h1>
 
         <div>Nombre servidor</div>
@@ -18,7 +18,7 @@
         <input type="text" name="usuario" >
         <br>
         <div>Contraseña</div>
-        <input type="text" name="contraseña" >
+        <input type="password" name="contraseña" >
         <br>
         <div>Base de datos</div>
         <input type="text" name="base-de-datos" >

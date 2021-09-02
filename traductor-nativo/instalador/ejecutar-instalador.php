@@ -8,10 +8,10 @@
 
     $errorEjecucion = array();
 
-    $servidor  ='localhost';
-    $usuario = 'root';
-    $contraseña = '';
-    $baseDeDatos = 'prueba1';
+    $servidor  = $_POST['servidor'];
+    $usuario = $_POST['usuario'];
+    $contraseña = $_POST['contraseña'];
+    $baseDeDatos = $_POST['base-de-datos'];
 
     // Paso 2: Verificamos que la conexión es correcta.
 
